@@ -1,3 +1,4 @@
+
 let svg1 = document.getElementById("svg1");
 let div1 = document.getElementById("div1");
 let para1 = document.getElementById("para1");

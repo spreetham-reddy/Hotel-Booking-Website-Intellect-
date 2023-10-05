@@ -1,133 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
-.Page{
-    background-color: #222;
-    color: black;
-}
 
-.loginBtn{
-    margin-left: 3rem;
-    width: 133px;
-    height: 40px;
-    border-radius: 35px;
-    background: #FF7665;
-    color: #ffffff;
-}
-
-.checked {
-    color: orange;
-}
-
-.hotel1-left{
-    background-color: #ffffff;
-}
-
-.card-bg{
-    border-radius: 16px;
-    background: url("https://res.cloudinary.com/do3biygrm/image/upload/v1696417736/1_iqew0j.jpg"), lightgray 50% / cover no-repeat;
-}
-
-.Pr-heading{
-    margin-top: 3rem;
-    color: #ffffff;
-}
-
-.Pr-card{
-    background-color: #ffffff;
-}
-
-.Pr-bg-card{
-    overflow: hidden;
-    border-radius: 20px;
-}
-
-.History-card{
-    background-color: white;
-    padding: 2rem;
-}
-
-.location-Bg-container{
-    margin-top : 2rem;
-    background-image: url("https://res.cloudinary.com/do3biygrm/image/upload/v1696488237/4_ej3qem.png");
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    flex-shrink: 0;
-    
-}
-
-.bgg{
-    border-radius: 15px;
-    margin: 2rem;
-    padding: 2rem;
-    background-color: #ffffff;
-}
-
-
-
-
-.Pr-card-heading{
-    color: black;
-}
-
-.ViewBtn
-{
-    color: #FFF;
-    font-family: Open Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px; /* 175% */
-    width: 109px;
-    border-width: 0px;
-    height: 40px;
-    flex-shrink: 0;
-    border-radius: 280px;
-    background: rgba(255, 118, 101, 0.40);
-}
-
-.His-para{
-    margin-top: 1rem;
-    color: #555;
-    font-family: Open Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px; /* 175% */
-}
-
-.Btn{
-    border-radius: 35px;
-    background: #FF7665;
-    padding: 16px 32px;
-    border-width: 0px;
-    color: #ffffff;
-    margin-top: 2.5rem;
-}
+/* Facilities Section Classes */
 
 .facilties-bg{
     margin-top: 10rem;
-}
-
-.His-heading{
-    color: #000;
-    font-family: Open Sans;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 600;
-
-}
-
-.History-Section{
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-}
-
-.Home-Section{
-    margin-top: 1rem;
-    margin-bottom: 4rem;
-    border-radius: 3rem;
-    overflow: hidden;
 }
 
 .facilities-card{
@@ -143,18 +20,23 @@
     background-color: #ffffff;
 }
 
-.footer-bg{
-    background-color: rgba(237, 77, 56, 0.8);;
+.Btn{
+    border-radius: 35px;
+    background: #FF7665;
+    padding: 16px 32px;
+    border-width: 0px;
+    color: #ffffff;
+    margin-top: 2.5rem;
 }
 
-.para{
-    color: rgba(29, 38, 58, 0.90);
-    font-family: Open Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 24px */
-}
+
+/* FAQ Section Classes */
+
+.background{
+    padding: 10px;
+    background-color: #ffffff;
+  }
+
 
 .FAQ_h{
     color: #0C1623;
@@ -164,12 +46,6 @@
     font-weight: 600;
     line-height: 170%; /* 30.6px */
     text-transform: capitalize;
-}
-
-.video-icon{
-    background-color: rgba(232, 232, 232, 0.31);
-    padding: 7px;
-    border-radius: 15px;
 }
 
 .FAQ-heading{
@@ -195,117 +71,8 @@
     line-height: 150%; /* 24px */
 }
 
-.items{
-    justify-content: space-around;
-    display: flex;
-}
 
-.xx{
-    width: 100%;
-}
-
-.df{
-    justify-content: space-around;
-    display: flex;
-}
-
-.custom-summary::before {
-    content: '\25B6'; /* Unicode character for a right-pointing arrow */
-    float: right;
-    margin-left: 10px; /* Add spacing between the text and arrow */
-  }
-
-  .background{
-    padding: 10px;
-    background-color: #ffffff;
-  }
-
-  .parent{
-    position: relative;
-  }
-
-  .child{
-    overflow: hidden;
-    border-radius: 20px;
-    border-top-right-radius: 3rem;
-    border-bottom-right-radius: 3rem;
-    position: absolute;
-    background-color: white;
-    top: 27.5rem;
-    left: 15rem;
-  }
-
-  .vertical-line{
-    margin-left: 3rem;
-    margin-right: 3rem;
-    width: 2px;
-    height: 3.5rem;
-    background-color: #E8E8E8;
-  }
-
-  .searchBtn{
-    color: #ffffff;
-    width: 9rem;
-    border-radius: 280px;
-    background: rgba(255, 84, 62, 0.80);
-    margin-left: 3rem;
-    padding-left: 2rem;
-    height: 5.5rem;
-    border-width: 0px;
-  }
-
-  .video-container{
-    margin-bottom: 5rem;
-  }
-
-  .top{
-    margin-top: 1rem;
-  }
-
-  .details{
-    color: #555;
-    font-family: Open Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16px; /* 114.286% */
-  }
-
-  .detail{
-    color: #222;
-    font-family: Open Sans;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 120% */
-  }
-
-  .Home-heading{
-    color: #000;
-    font-family: Poppins;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 80px; /* 125% */
-  }
-
-  .Home-para{
-    color: #555;
-    font-family: Open Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 32px; /* 160% */
-  }
-
-  .video-para{
-    color: #222;
-    font-family: Open Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 30px; /* 150% */
-  }
+/* location Section Classes */
 
   .parent1{
     position: relative;
@@ -333,6 +100,7 @@
     width: 300px;
     height: 56px;
     padding: 1rem;
+    border-radius: 50px;
     background-color: transparent;
     border-width: 0px;
   }
@@ -380,6 +148,12 @@
     line-height: 40px; /* 111.111% */
 }
 
+/* footer Section classes */
+
+.footer-bg{
+    background-color: rgba(237, 77, 56, 0.8);;
+}
+
 .footer-left-para{
     color: #FFF;
     font-family: Open Sans;
@@ -406,3 +180,255 @@
     font-weight: 400;
     line-height: 32px; /* 133.333% */
 }
+
+
+/* Home Section Classes */
+
+.Home-Section{
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    border-radius: 3rem;
+    overflow: hidden;
+} 
+
+.parent{
+    position: relative;
+}
+
+.History-card{
+    background-color: white;
+    padding: 2rem;
+}
+
+.Home-heading{
+    color: #000;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 125% */
+}
+
+.Home-para{
+    color: #555;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 160% */
+}  
+
+.video-container{
+    margin-bottom: 5rem;
+}
+
+.video-para{
+    color: #222;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 150% */
+}
+
+.details{
+    color: #555;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 114.286% */
+  }
+
+  .detail{
+    color: #222;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+  }
+
+/* Popular Room Section Classes */ 
+
+.checked {
+    color: orange;
+}
+  
+.Pr-heading{
+    margin-top: 3rem;
+    color: #ffffff;
+}
+
+.Pr-card{
+    background-color: #ffffff;
+}
+
+.Pr-bg-card{
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.Pr-card-heading{
+    color: black;
+}
+
+.ViewBtn
+{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    width: 109px;
+    border-width: 0px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 280px;
+    background: rgba(255, 118, 101, 0.40);
+}
+
+/* History Section Classes */
+
+.His-para{
+    margin-top: 1rem;
+    color: #555;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+
+.Btn{
+    border-radius: 35px;
+    background: #FF7665;
+    padding: 16px 32px;
+    border-width: 0px;
+    color: #ffffff;
+    margin-top: 2.5rem;
+}
+
+
+.His-heading{
+    color: #000;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.History-Section{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+/* Home/Booking Section and Other Classes */
+
+.Page{
+    background-color: #222;
+    color: black;
+}
+
+
+.loginBtn{
+    margin-left: 3rem;
+    width: 133px;
+    height: 40px;
+    border-radius: 35px;
+    background: #FF7665;
+    color: #ffffff;
+}
+
+.hotel1-left{
+    background-color: #ffffff;
+}
+
+.card-bg{
+    border-radius: 16px;
+    background: url("https://res.cloudinary.com/do3biygrm/image/upload/v1696417736/1_iqew0j.jpg"), lightgray 50% / cover no-repeat;
+}
+
+.location-Bg-container{
+    margin-top : 2rem;
+    background-image: url("https://res.cloudinary.com/do3biygrm/image/upload/v1696488237/4_ej3qem.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    flex-shrink: 0;
+    
+}
+
+.bgg{
+    border-radius: 15px;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+
+
+.para{
+    color: rgba(29, 38, 58, 0.90);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+
+.video-icon{
+    background-color: rgba(232, 232, 232, 0.31);
+    padding: 7px;
+    border-radius: 15px;
+}
+
+.items{
+    justify-content: space-around;
+    display: flex;
+}
+
+.xx{
+    width: 100%;
+}
+
+.df{
+    justify-content: space-around;
+    display: flex;
+}
+
+  .child{
+    overflow: hidden;
+    border-radius: 20px;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    position: absolute;
+    background-color: white;
+    top: 27.5rem;
+    left: 15rem;
+  }
+
+  .vertical-line{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    width: 2px;
+    height: 3.5rem;
+    background-color: #E8E8E8;
+  }
+
+  .searchBtn{
+    color: #ffffff;
+    width: 9rem;
+    border-radius: 280px;
+    background: rgba(255, 84, 62, 0.80);
+    margin-left: 3rem;
+    padding-left: 2rem;
+    height: 5.5rem;
+    border-width: 0px;
+  }
+
+  .top{
+    margin-top: 1rem;
+  }
